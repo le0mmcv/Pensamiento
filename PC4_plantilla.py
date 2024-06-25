@@ -136,15 +136,15 @@ grafico_seleccionado = sidebar.selectbox('Selecciona un gráfico', graficos)
 # Mostramos el gráfico seleccionado
 if grafico_seleccionado == 'Tarjetas Rojas Visitante Equipos De La Liga Italiana':
     sidebar.markdown("<div style='text-align: justify; font-size: 20px;'>El gráfico muestra que Juventus tiene el valor más alto, con un promedio de más de 0.200 tarjetas rojas por partido como visitante, lo que sugiere un estilo de juego más agresivo o decisiones arbitrales más severas en su contra. Por otro lado, nueve equipos tienen un promedio de un poco más de 0.100 tarjetas rojas, indicando una uniformidad en la conducta disciplinaria de la mayoría de los equipos cuando juegan fuera de casa. En general, Juventus se destaca por recibir más tarjetas rojas comparado con otros equipos, mientras que el resto muestra una tendencia más homogénea.</div>", unsafe_allow_html=True)
-    sidebar.image("Promedio De Tarjetas Rojas Como Visitante De Equipos De La Liga Italiana.jpg", caption='Cantidad de Lenguas por Familias Lingüisticas', width=500)
+    sidebar.image("Promedio De Tarjetas Rojas Como Visitante De Equipos De La Liga Italiana.jpg", caption='Tarjetas Rojas Visitante Equipos De La Liga Italiana', width=500)
     pass
 elif grafico_seleccionado == 'Tarjetas Amarillas Local Equipos De La Liga Italiana':
     sidebar.markdown("<div style='text-align: justify'>En el gráfico, Sampdoria y Verona destacan con un promedio de poco más de 2.5 tarjetas amarillas por partido, sugiriendo un posible estilo de juego más agresivo o una disciplina defensiva más estricta en casa. En contraste, Napoli muestra el promedio más bajo, con menos de 1 tarjeta amarilla por partido, indicando un enfoque más disciplinado y menos infracciones. Estas diferencias reflejan una variabilidad significativa entre los equipos en cuanto a su comportamiento en el campo local, lo cual puede ser crucial para ajustar estrategias de disciplina y evitar sanciones adicionales.</div>", unsafe_allow_html=True)
-    sidebar.image("Promedio De Tarjetas Amarillas Como Local De Equipos De La Liga Italiana.jpg", caption='Lenguas Sudamericanas de la Familia Lingüistica Arakawa', width=500)
+    sidebar.image("Promedio De Tarjetas Amarillas Como Local De Equipos De La Liga Italiana.jpg", caption='Tarjetas Amarillas Local Equipos De La Liga Italiana', width=500)
     pass
 elif grafico_seleccionado == 'Goles de Atalanta Por Partido':
-    sidebar.markdown("<div style='text-align: justify'>El gráfico muestra que el equipo Atlanta anotó una mayor proporción de sus goles cuando juega como local (57.6%) en comparación con cuando juega como visitante (42.4%). Esto podría indicar una tendencia de mayor efectividad ofensiva en casa, posiblemente debido al apoyo de los aficionados, familiaridad con el terreno de juego u otros factores que favorecen el desempeño en casa en lugar de fuera.</div>", unsafe_allow_html=True)
-    sidebar.image("Promedio de goles de Atalanta por partido.jpg", caption='Goles de Roma Anotados Como Local y Visitante', width=500)
+    sidebar.markdown("<div style='text-align: justify'>El gráfico muestra que el equipo Atlanta anotó una mayor proporción de sus goles cuando juega como local, en comparación con cuando juega como visitante. Esto podría indicar una tendencia de mayor efectividad ofensiva en casa, posiblemente debido al apoyo de los aficionados, familiaridad con el terreno de juego u otros factores que favorecen el desempeño en casa en lugar de fuera.</div>", unsafe_allow_html=True)
+    sidebar.image("Promedio de goles de Atalanta por partido.jpg", caption='Goles de Atalanta Por Partido', width=500)
     pass
 
 # if grafico_seleccionado == 'Gráfico de Macroareas':: Esta línea verifica si la opción seleccionada es 'Gráfico de Macroareas'.
