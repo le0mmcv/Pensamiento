@@ -46,7 +46,7 @@ col1, col2 = st.columns(2)
 # Las columnas creadas se asignan a las variables col1 y col2.
 
 # En la primera columna colocamos la imagen
-col1.image("DSC_0064.jpg", caption='El código es poesía... escrita en un idioma que nadie realmente entiende, ni siquiera el poeta', width=300)
+col1.image("yo.jpg", caption='El código es poesía... escrita en un idioma que nadie realmente entiende, ni siquiera el poeta', width=300)
 
 # col1.image("ellie.png", caption='Ellie', width=300): Esta línea está colocando una imagen en la primera columna (col1). 
 # La función image toma como primer argumento la ruta de la imagen que se va a mostrar. 
@@ -143,7 +143,7 @@ elif grafico_seleccionado == 'Tarjetas Amarillas Local Equipos De La Liga Italia
     sidebar.image("Promedio De Tarjetas Amarillas Como Local De Equipos De La Liga Italiana.jpg", caption='Tarjetas Amarillas Local Equipos De La Liga Italiana', width=500)
     pass
 elif grafico_seleccionado == 'Goles de Atalanta Por Partido':
-    sidebar.markdown("<div style='text-align: justify'>El gráfico muestra que el equipo Atlanta anotó una mayor proporción de sus goles cuando juega como local, en comparación con cuando juega como visitante. Esto podría indicar una tendencia de mayor efectividad ofensiva en casa, posiblemente debido al apoyo de los aficionados, familiaridad con el terreno de juego u otros factores que favorecen el desempeño en casa en lugar de fuera.</div>", unsafe_allow_html=True)
+    sidebar.markdown("<div style='text-align: justify'>El gráfico muestra que el equipo Atlanta anotó una mayor proporción de sus goles cuando juega como local (57.6%) en comparación con cuando juega como visitante (42.4%). Esto podría indicar una tendencia de mayor efectividad ofensiva en casa, posiblemente debido al apoyo de los aficionados, familiaridad con el terreno de juego u otros factores que favorecen el desempeño en casa en lugar de fuera.</div>", unsafe_allow_html=True)
     sidebar.image("Promedio de goles de Atalanta por partido.jpg", caption='Goles de Atalanta Por Partido', width=500)
     pass
 
